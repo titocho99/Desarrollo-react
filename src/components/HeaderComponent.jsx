@@ -95,6 +95,8 @@ export default function HeaderComponent() {
                 aria-hidden="true"
               />
             </Popover.Button>
+            
+            
 
             <Transition
               as={Fragment}
@@ -133,16 +135,25 @@ export default function HeaderComponent() {
                   ))}
                 </div>
               </Popover.Panel>
+              
             </Transition>
+            
+            
           </Popover>
-          <a href="/" className="text-sm font-semibold leading-6 text-white">
-            Clase 5
-          </a>
+          <Link to="/recetas" className="text-sm font-semibold leading-6 text-white">
+            Recetas
+          </Link>
+         
           <a href="/" className="text-sm font-semibold leading-6 text-white">
             Clase 6
           </a>
+         
         </Popover.Group>
       </nav>
+      <div className="bg-slate-200 flex justify-center">
+      <h1 className="text-2xl font-bold text-black">Desarrollo web con React - IECA</h1>
+      </div>
+      
       <Dialog
         as="div"
         className="lg:hidden"

@@ -2,6 +2,7 @@
   "name": "ieca",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://servicios.lageppp.com/",
   "dependencies": {
     "@headlessui/react": "^1.7.15",
     "@heroicons/react": "^2.0.18",
